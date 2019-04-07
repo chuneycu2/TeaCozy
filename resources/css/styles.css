@@ -4,6 +4,7 @@ body {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  margin: 0;
 }
 
 header {
@@ -12,8 +13,9 @@ header {
   display: flex;
   position: fixed;
   border-bottom: 1px solid seashell;
-  z-index: 1;
+  z-index: 2;
   align-items: center;
+  background-color: black;
 }
 
 .logo {
@@ -61,4 +63,41 @@ nav a {
   text-align: center;
   background-color: black;
   width: 1200px;
+}
+
+.mission h2 {
+  margin: 10px 0 25px 0;
+}
+
+.mission h4 {
+  margin: 10px 0;
+}
+
+.selection {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  justify-content: space-around;
+}
+
+.item-row {
+  display: flex;
+  text-align: center;
+}
+
+.item.headline {
+  width: 1000px;
+  text-align: center;
+}
+
+.item h4 {
+  margin: 10px 0 25px 0;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  padding: 0 20px;
 }
