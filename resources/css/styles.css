@@ -78,7 +78,7 @@ nav a {
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
-  padding-top: 40px;
+  padding: 40px 0;
   justify-content: space-around;
 }
 
@@ -100,4 +100,48 @@ nav a {
   width: 300px;
   height: 200px;
   padding: 0 20px;
+}
+
+.locations {
+  background-image: url('../../resources/images/img-locations-background.jpg');
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+}
+
+.locations-headline {
+  text-align: center;
+}
+
+.locations-headline h2 {
+  margin: 0;
+}
+
+.location-row {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin: 15px 20px;
+  opacity: 1.0;
+}
+
+.location p {
+  padding: 10px 0;
+}
+
+footer .contact {
+  height: 200px;
+  text-align: center;
+}
+
+footer .copyright {
+  text-align: left;
+  margin-left: 20px;
 }
